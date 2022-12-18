@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <style>
+            .calculator{
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+            }
+            input{
+                grid-column: span 4;
+                text-align: right;
+                width: 100%;
+                font-size: 2rem;
+            }
+            button{
+                font-size: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+          <div class="calculator">
+                
+            <input type="text" placeholder="0">
+            
+                <button class="num">7</button>
+                <button class="num">8</button>
+                <button class="num">9</button>
+                <button class="opr">+</button>
+
+                <button class="num">4</button>
+                <button class="num">5</button>
+                <button class="num">6</button>
+                <button class="opr">-</button>
+
+                <button class="num">1</button>
+                <button class="num">2</button>
+                <button class="num">3</button>
+                <button class="opr">*</button>
+
+                <button class="cl">C</button>
+                <button class="num">0</button>
+                <button class="result">=</button>
+                <button class="opr">/</button>
+          </div>
+
+          <script>
+              numBtns = document.querySelectorAll(".num");
+              input = document.querySelector("input");
+              for(i=0;i<numBtns.length;i++)
+              {
+                numBtns[i].addEventListener("click",addNum);
+              }
+
+              temp = "";
+              isOpr = 0;
+              oprBtns = document.querySelectorAll(".opr");
+
+              for(i=0;i<oprBtns.length;i++)
+              {
+                oprBtns[i].addEventListener("click",addOpr);
+              }
+              function  addNum(){
+                temp+= event.target.innerHTML;
+                input.value  = temp;
+                isOpr = 0;
+              }
+
+              function  addOpr(){
+               if (isOpr==1)
+               {
+                   temp= temp.slice(0,temp.length-1)+event.target.innerHTML;
+               }
+               else{
+                    temp += event.target.innerHTML;
+               }
+
+               input.value = temp;
+               isOpr=1;
+              }
+
+              document.querySelector(".result").addEventListener("click",function()
+              {
+                      temp=  eval(input.value);
+                      input.value = temp;
+              });
+
+              document.querySelector(".cl").addEventListener("click",function(){
+                temp="";
+                input.value = temp;
+              })
+
+          </script>
+    </body>
+</html>
