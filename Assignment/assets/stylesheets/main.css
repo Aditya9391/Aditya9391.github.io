@@ -1,0 +1,385 @@
+/* Default Settings */
+h1,h2,h3,h4,h5,h6{
+    margin-bottom:0;
+}
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+
+ul li{
+    display:inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header section */
+#header{
+    padding:1em 0px;
+}
+#header #logo{
+    margin: 1.2em 0;
+}
+#header>.container{
+    width:60%;
+    margin:0 auto;
+}
+#header ul{
+    justify-content: space-between;
+    display: flex;
+}
+
+#header ul li a{
+    display: block;
+    font-weight: 600;
+    color: #6FBC60;
+    padding:8px 12px;
+}
+
+#header #user_nav ul li:last-child{
+    border:2px solid #6FBC60;
+}
+
+/* book_hotel section */
+#banner1{
+    width:100%;
+    padding: 5em;
+    background-image: url("../images/Banner_1.jpg");
+    background-size: 100% 100%;
+}
+#banner1 .container{
+    width: 80%;
+}
+
+#banner1 .banner_caption h2{
+    font-size: 1.8em;
+    font-weight:400;
+}
+#banner1 .banner_caption h2>span{
+    display: block;
+    color:#fff;
+    font-size: 2.4em;
+    font-weight: 700;
+}
+
+#booking{
+    background-color: #fff;
+}
+#booking>div{
+    margin-bottom:18px;
+}
+#booking h3{
+    color: #6FBC60;
+}
+#submit{
+    text-align: right;
+
+}
+
+#booking>#submit> i{
+    color: #fff;
+    display: inline-block;
+    background-color: black;
+    font-size: 28px;
+    padding: 1.5em;
+}
+
+/* section 2 */
+#section2{
+    text-align: center;
+    padding: 3em 0 2em 0;
+}
+#section2 .container{
+    width: 70%;
+}
+
+#section2 h2 span{
+    display:block;
+}
+
+#section2 p span{
+    display: block;
+}
+
+#section2 p{
+    font-size: 2em;
+}
+
+
+/* browse section */
+#browse .cols{
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    width: 22%;
+    height: 30vh;
+    margin-bottom: 2em;
+
+
+}
+#browse .col1{
+background-image: url("../images/browseByLocation/Delhi.jpg");
+}
+
+#browse .col2{
+    background-image: url("../images/browseByLocation/Gurugram.jpg");
+    
+}
+#browse .col3{
+    background-image: url("../images/browseByLocation//Hyderabad.jpg");
+    
+}
+#browse .col4{
+    background-image: url("../images/browseByLocation/Jaipur.jpg");
+    
+}
+#browse .col5{
+    background-image: url("../images/browseByLocation/Noida.jpg");
+    
+}
+
+#browse .col6{
+    background-image: url("../images/browseByLocation/Kolkata.jpg");
+    
+}
+
+
+#browse .col7{
+    background-image: url("../images/browseByLocation/Banglore.jpg");
+    
+}
+
+#browse .col8{
+    background-image: url("../images/browseByLocation/Quote.jpg");
+    
+}
+#browse{
+    background-image: url("../images/browseByLocation/BG.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 3em;
+    
+}
+.heading{
+    color:#6FBC60;
+    text-align: center;
+    font-weight: 800;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+#browse h3{
+ color: #fff;
+ text-align: center;
+ margin-top: 10vh;
+}
+#browse .container{
+    width:80%;
+}
+/* Quality section */
+#quality{
+    width:100%;
+    background-image: url(../images/Banner_2.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 2em 0;
+}
+#quality h3{
+    color:#fff;
+    font-size: 3em;
+} 
+#quality h3 span{
+    color:#000;
+    display: block;
+    font-size: 28px;
+    font-weight: 200;
+}
+#quality .container{
+    width:80%;
+}
+#quality i{
+    color:#fff;
+    font-size: 3em;
+    display: block;
+    margin-bottom: 12px;
+}
+/* why olive section */
+#why_olive{
+    text-align: center;
+}
+#why_olive .card{
+    border:none;
+    
+}
+#why_olive .container{
+    width:70%;
+}
+#why_olive .row .col{
+
+}
+#why_olive .card-text{
+    font-weight: 600;
+    font-size: 14px;
+}
+#why_olive .cols{
+    margin:0px 1em;
+}
+
+/* Blogs  */
+#blogs{
+    background:linear-gradient(to bottom,white,#D3D3C7);
+    padding: 3em;
+}
+#blogs .card-body{
+    padding:16px 18px 20px 30px;
+
+}
+#blogs .cols{
+    margin-bottom: 2em;
+}
+#blogs .card-text{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+#blogs .cols{
+    margin-bottom:1.5em;
+}
+
+#blogs a{
+    color:#6FBC60;
+
+}
+
+
+/* footer */
+#footer{
+    background-color: #242424;
+    background-image: url("../images/Cityscape_Footer.png");
+    padding: 3em 2em 15em 3em;
+    background-size: 60;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+
+}
+
+
+#footer ul li{
+    display: block;
+
+}
+#footer .logo{
+    margin-top: 2em;
+
+}
+#footer ul li a,h3{
+    color: #fff;
+    text-transform: uppercase;
+}
+#footer h3{
+    color:#6FBC60;
+    font-size: 18px;
+    margin: 2em 0px 12px 0;
+}
+#footer .social{
+    margin-top: 2em;
+}
+#footer .social ul{
+    display: flex;
+    justify-content: space-between;
+}
+#footer .social ul li a{
+    display: block;
+    padding: 8px 12px;
+}
+#footer .social ul li a i{
+    color:#6FBC60;
+    font-size: 1.8em;
+}
+#footer:not(.social li) li{
+    margin-bottom: 14px;
+}
+
+
+
+
+
+
+
+@media (max-width:992px)
+{
+    
+/* .container{
+    width:100%;
+} */
+
+#browse .cols{
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 30vh;
+    margin-bottom: 2em;
+
+}
+
+#section2 h2{
+    color: #6FBC60 ;
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+#section2 p{
+    font-size: 1.8em;
+}
+
+#submit {
+    text-align: left;
+    
+
+}
+
+#submit i {
+    display: block !important;
+    text-align: center;
+
+}
+
+}
+
+@media (max-width:768px)
+{
+    
+/* .container{
+    width:100%;
+} */
+
+#browse .cols{
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+    
+    margin-bottom: 2em;
+
+}
+#section2 h2{
+    color: #6FBC60 ;
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+#section2 p{
+    font-size: 1.3em;
+}
+#submit>i {
+    display: block !important;
+    text-align: center;
+
+}
+}
