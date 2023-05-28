@@ -1,0 +1,530 @@
+/* default settings */
+body{
+    margin:0;
+}
+*{
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: none!important;
+}
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6
+{
+    margin-top:0;
+}
+
+/* header */
+#header{
+    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/17-09-2018/online_resume-demo_Free/1471767518/web/images/1.jpg");
+    background-size: 100% 100%;
+    padding-bottom:300px;
+
+}
+#topbar{
+    padding-top:8px;
+}
+#mainNav{
+    width:50%;
+}
+#mainNav ul li a{
+    display: block;
+    padding:12px 20px;
+    background-color: #1EC5CA;
+    color:#fff;
+    border-radius: 20px ;
+    font-size: 18px;
+    box-shadow:5px 5px 20px #000 ;
+    font-weight: 600;
+}
+#mainNav ul li a:hover{
+    text-decoration: none;
+    color:#FF3F4D;
+}
+#mainNav .active a{
+    color:#FF3F4D;
+}
+#header .logo a{
+    font-family: 'Pacifico';
+    color:#fff;
+    font-size: 35px;
+    text-shadow: 4px 4px 5px #000;
+}
+
+#introduction .work-profile{
+    font-weight:400;
+    font-size: 25px;
+}
+#introduction span{
+display: block;
+}   
+#introduction .Name1{
+    font-weight: 800;
+    font-size: 50px;
+    color:#fff;
+    text-shadow: 4px 4px 5px #000;
+
+
+}
+#introduction .Name2{
+    color:#FF3F4D;
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 4px 4px 5px #000;
+
+
+}
+#introduction .introCaption
+{
+    color:#fff;
+    margin-top:20px;
+}
+#download,.hire{
+    display: inline-block;
+    /* font-weight: 600; */
+    font-size: 18px;
+    border-radius: 25px;
+    margin:40px 10px 0px 0px;
+}
+#download:hover{
+    background-color:#FF3F4D;
+    color:#fff;
+}
+#download{
+    background-color: #fff;
+    color:#000;
+    padding:10px 18px;
+
+}
+.hire{
+    background-color:#FF3F4D;
+    color:#fff;
+    padding:10px 50px;
+    
+}
+.hire:hover{
+    background-color: #000;
+    color:#fff;
+}
+
+/* section- about */
+#aboutSection{
+    padding:100px 0;
+}
+#aboutSection .about{
+    padding:0px 5px 0px 70px;
+}
+#aboutSection .profilePic{
+background-image: url("https://demo.w3layouts.com/demos_new/template_demo/17-09-2018/online_resume-demo_Free/1471767518/web/images/about.jpg");
+/* background-size: 100% 100%; */
+/* height:50vh; */
+background-size: cover;
+}
+#aboutSection .about span{
+    color:#1ccacd;
+    font-weight: 600;
+
+}
+#aboutSection .about h3{
+    font-size: 35px;
+}
+#aboutSection .about p{
+    color:#999;
+    line-height: 1.8;
+    letter-spacing: 3px;
+
+}
+/* Service section` */
+#Services{
+    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/17-09-2018/online_resume-demo_Free/1471767518/web/images/bg.jpg");
+    background-size:cover;
+    padding:100px 0;
+}
+#Services .service-logo a{
+display: inline-block;
+background-color: #fff;
+padding: 30px;
+border-radius: 50%;
+pointer-events: none;
+
+}
+
+#Services .service-logo i{
+    color:#ff3f4d;
+    font-size: 40px;
+} 
+#Services .serviceinfo h3{
+color:#fff;
+/* font-size: 30px; */
+font-weight: 600;
+letter-spacing: 1px;
+}
+#Services .serviceinfo p{
+color:#eee;
+line-height: 2;
+letter-spacing: 2px;
+margin-top:20px;
+}
+#Services .service:hover i{
+    color:#000;
+}
+
+/* Skills section */
+#Skills p{
+color:#999;
+}
+#Skills{
+    padding:60px 0;
+}
+#Skills .design-top,.dev-top{
+border-left:3px solid #1ccacd;
+padding:5px  20px;
+}
+#Skills .design-bottom .counter{
+    color:#ff3f4d;
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 2px 2px 6px #999 ;
+}
+#Skills .design-bottom p:not(.counter){
+    color:#000;
+}
+#Skills .dev-bottom{
+    margin-left:100px;
+}
+
+/* EDUCATION SECTION */
+#education{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/17-09-2018/online_resume-demo_Free/1471767518/web/images/bg4.jpg);
+}
+#education .edu{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/17-09-2018/online_resume-demo_Free/1471767518/web/images/overlay.png);
+}
+.edu .container .row{
+    justify-content: space-between;
+}
+.edusec,.expsec{
+    margin: 90px 0px;
+    background-color: white;
+    padding: 45px 200px 40px 50px;
+    position: relative;
+}
+.edu-top,.exp-top{
+    border-left:3px solid #1ccacd;
+    padding:5px  20px;
+    margin-bottom: 30px;
+}
+.edu i{
+    font-size: 35px;
+    color: red;
+}
+.info i{
+    position: absolute;
+    color: lightgray!important;
+    right: 65px;
+    top: 180px;
+    transform: rotateZ(-45deg);
+    font-size: 130px;
+    opacity: 0.3;
+}
+.info h3{
+    font-weight: 500;
+    font-size: 22px;
+    margin: 10px 0px;
+}
+.info p{
+    color: gray;
+    font-weight: 300;
+}
+
+
+/* REVIEWS */
+#reviews{
+    text-align: center;
+    margin: 70px 0px;
+}
+#reviews .container h6{
+    color: #1ccacd;
+}
+#reviews .container span{
+    font-size: 32px;
+    font-weight: 600;
+}
+#reviews .container p{
+    color: lightgray;
+}
+#reviews .container .row{
+    justify-content: space-between;
+}
+.carousel{
+    width: 40%;
+    padding: 25px 10px;
+}
+
+.carousel-indicators li{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: -18px 2px;
+    background-color:gray;
+}
+.carousel-indicators .active{
+    background-color: red;
+}
+.carousel-item .container p{
+    color: black!important;
+    font-weight: 300;
+}
+.carousel-item .container .row{
+    justify-content: center!important;
+    margin-bottom: 20px;
+}
+.carousel-item .container .row p{
+    margin-bottom: 25px;
+    word-spacing: 3px;
+    letter-spacing: 1.2px;
+}
+.carousel-inner .carousel-item .container .row .img{
+    height: 30%;
+    width: 30%;
+    margin-right: 20px;
+}
+.carousel-inner .carousel-item .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 60px;
+} 
+.container .row .text{
+    color: black!important;
+    margin-top: 15px;
+}
+.carousel-inner .carousel-item .img p{
+    color: lightgray!important;
+}
+.static{
+    width: 45%;
+}
+.static img{
+    width: 100%;
+    height: 100%;
+}
+
+/* myfacts section */
+#myfacts{
+    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/17-09-2018/online_resume-demo_Free/1471767518/web/images/bg8.jpg");
+    padding: 100px 0px;
+    background-size: cover;
+}
+.facts{
+    padding: 48px 0px;
+    margin-left: 620px;
+}
+#myfacts .headings {
+    text-align: center;
+}
+#myfacts .headings span{
+    color:#1ccacd;
+    font-weight: 600;
+    text-align: center;
+
+}
+#myfacts .headings h3{
+    font-size: 35px;
+  
+}
+#myfacts .content p{
+    color:#999;
+    line-height: 1.8;
+    text-align: center;
+}
+#myfacts .btn{
+text-align: center;
+margin-top: 40px;
+margin-left: 160px;
+}
+#myfacts .btn .Download{
+    background-color:#FF3F4D;
+    color:#fff;
+    padding:10px 20px;
+    font-size: 18px;
+    border-radius: 25px;
+    margin:40px 10px 0px 0px;
+    
+}
+/* section projects */
+
+#projects .heading {
+    text-align: center;
+    padding: 48px 0px;
+}
+#projects .heading span{
+    color:#1ccacd;
+    font-weight: 600;
+
+}
+#projects .heading h3{
+    font-size: 35px;
+  
+}
+.row{
+    justify-content: space-between;
+}
+#projects .heading p{
+    color:#999;
+    line-height: 1.8;
+}
+#projects .p-1,.p-2,.p-3{
+    width: 32%;
+    height: 100%;
+    padding: 0px !important;
+    text-align: center;
+}
+.photos h5{
+    margin: 15px 0px 5px 0px;
+    font-weight: 600;
+}
+.photos p{
+    color: #999;
+    margin: 10px 0px;
+}
+.container
+.row img{
+    height: 100%;
+}
+/* awwards */
+#awards{
+    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/17-09-2018/online_resume-demo_Free/1471767518/web/images/bg5.jpg");
+    padding: 100px 0px 0px 0px;
+    /* background-size: 100% 100%; */
+    background-size: contain;
+
+    background-repeat: no-repeat;
+}
+#awards .headings span{
+    color: #FFF;
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-left: 520px;
+}
+#awards .headings h3{
+    color: #FFF;
+    font-size: 36px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+#awards .headings p{
+    color: #eee;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#awards .content{
+    /* margin-bottom: 50px; */
+    height: 100vh;
+    width: 100%;
+}
+#awards .best-logo{
+    background-color:#fff;
+    width: 35%;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+#awards .best-logo i{
+    color: red;
+   
+    font-size: 30px;
+    margin: 5px 0px;
+}
+
+#awards .web-awards i{
+    color: red;
+   
+    font-size: 30px;
+    margin: 5px 0px;
+}
+#awards .web-awards{
+    background-color: #FFF;
+    width: 35%;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+    margin-left: 100px;
+    /* margin-top: 200px; */
+}
+
+
+/* footer */
+#footer{
+    padding: 25px 0px;
+    margin: 100px 0px 60px 0px;
+}
+#foot .logo a{
+    font-family: 'Pacifico';
+    color: #1ccacd;
+    font-size: 35px;
+    text-shadow: 4px 4px 5px #000;
+}
+#foot-nav ul li a{
+    color: #000;
+    display: block;
+    padding:12px 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+#foot-nav ul button{
+    background-color:#FF3F4D;
+    font-size: 18px;
+    border-radius: 25px;
+    color: #FFF;
+    border: none;
+    padding: 5px 25px;
+    box-shadow: 2px 2px 5px #000 !important; 
+    margin-left: 10px;
+}
+#foot-nav ul button:hover{
+    background-color: #000;
+}
+.copyright p {
+    padding-right: 5px;
+}
+#footer #foot-nav1 ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+#footer #foot-nav1 ul li a{
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    /* box-shadow: 0px 0px 1px 0px rgba(19, 18, 18, 0.33); */
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 2.5;
+    display: block;
+    transition: 1s;
+
+}
+.rounded-circle{
+    border-radius: 50% !important;
+}
+.hr{
+    margin: 40px 0px;
+}
+
+#foot-nav1 ul li a:hover{
+    /* border:1px solid #000; */
+    box-shadow: 0px 0px 22px #1DCBCE;
+}
